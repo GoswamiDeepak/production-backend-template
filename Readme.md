@@ -7,3 +7,6 @@
 - [x] npm i -D @types/node
 - [x] npm i --save-dev --save-exact prettier
 - [x] npx prettier . --write
+- [x] npm install --save-dev eslint @eslint/js typescript typescript-eslint
+- [x] npx eslint .
+- [x] npx eslint . --fix
