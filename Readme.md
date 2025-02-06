@@ -1,7 +1,9 @@
-- [x] npm init 
+- [x] npm init
 - [x] npm i -D typescript
 - [x] npx tsc --init
-    - [x] uncomment `"outDir" : "./dist"`
-    - [x] uncomment `"rootDir" : "./src"`
-    - [x] compile ts to js - `npx tsx`
+  - [x] uncomment `"outDir" : "./dist"`
+  - [x] uncomment `"rootDir" : "./src"`
+  - [x] compile ts to js - `npx tsx`
 - [x] npm i -D @types/node
+- [x] npm i --save-dev --save-exact prettier
+- [x] npx prettier . --write
