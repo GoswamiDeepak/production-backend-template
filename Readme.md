@@ -17,3 +17,4 @@
     - [x] npx husky init
     - [x] install lint-stage pakage -> only for do run pre-commit githook only on latest code / new code (avoid old code)
         - [x] npm i lint-staged
+- [x] npm i dotenv
