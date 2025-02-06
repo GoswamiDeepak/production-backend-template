@@ -7,7 +7,8 @@
         "format:fix": "prettier . --write",
         "format:check": "prettier . --check",
         "lint:check": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "prepare": "husky"
     },
     "author": "Deepak Goswami <deepakgoswamiofficial@gmail.com>",
     "license": "ISC",
@@ -15,8 +16,15 @@
         "@eslint/js": "^9.19.0",
         "@types/node": "^22.13.1",
         "eslint": "^9.19.0",
+        "husky": "^9.1.7",
         "prettier": "3.4.2",
         "typescript": "^5.7.3",
         "typescript-eslint": "^8.23.0"
+    },
+    "dependencies": {
+        "lint-staged": "^15.4.3"
+    },
+    "lint-staged": {
+        "*.ts": ["npm run format:fix", "npm run lint:fix"]
     }
 }
