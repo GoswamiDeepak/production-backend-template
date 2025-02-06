@@ -1,9 +1,9 @@
 - [x] npm init
 - [x] npm i -D typescript
 - [x] npx tsc --init
-  - [x] uncomment `"outDir" : "./dist"`
-  - [x] uncomment `"rootDir" : "./src"`
-  - [x] compile ts to js - `npx tsx`
+    - [x] uncomment `"outDir" : "./dist"`
+    - [x] uncomment `"rootDir" : "./src"`
+    - [x] compile ts to js - `npx tsx`
 - [x] npm i -D @types/node
 - [x] install prettier
     - [x] npm i --save-dev --save-exact prettier
@@ -17,4 +17,12 @@
     - [x] npx husky init
     - [x] install lint-stage pakage -> only for do run pre-commit githook only on latest code / new code (avoid old code)
         - [x] npm i lint-staged
-- [x] npm i dotenv
+- [x] Add Enviroment for project
+    - [x] npm i dotenv
+- [x] Install Express
+    - [x] npm i express
+    - [x] npm i -D @types/express
+- [x] run typscript express project in development
+    - [x] npm i -D nodemon
+    - [x] npm i -D ts-node
+
