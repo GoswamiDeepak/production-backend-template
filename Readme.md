@@ -25,4 +25,12 @@
 - [x] run typscript express project in development
     - [x] npm i -D nodemon
     - [x] npm i -D ts-node
+- [x] implement Logger
+    - [x] npm i winston
+- [x] implement Error Handling
+    - [x] npm i http-errors
+    - [x] npm i -D @types/http-errors
+- [x] install uuid for generate unique id
+    - [x] npm i uuid
+
 
