@@ -32,5 +32,14 @@
     - [x] npm i -D @types/http-errors
 - [x] install uuid for generate unique id
     - [x] npm i uuid
+- [x] Setting Up Automated Tests
+    - [x] npm i -D jest
+    - [x] npm i -D @types/jest
+    - [x] npm install --save-dev ts-jest
+    - [x] npx ts-jest config:init
+    - [x] intergation testing with jest 
+        - [x] npm i supertest
+        - [x] npm i -D @types/supertest
+
 
 
